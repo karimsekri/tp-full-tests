@@ -48,11 +48,11 @@ describe('calculerHeure', () => {
         });
 
         test('calculerHeureString (5)', () => {
-            expect(calculerHeureString(5)).toBe("mortin") 
+            expect(calculerHeureString(5)).toBe("nuight") 
         });
 
         test('calculerHeureString (6)', () => {
-            expect(calculerHeureString(6)).toBe("mortin") 
+            expect(calculerHeureString(6)).toBe("nuight") 
         });
 
         test('calculerHeureString (1.5)', () => {

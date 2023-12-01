@@ -1,9 +1,9 @@
 
 
-export function calculerHeure(lune: number, terre: number, soleil: number): string {
+// export function calculerHeure(lune: number, terre: number, soleil: number): string {
 
-    return "mortin";
-}
+//     return "mortin";
+// }
 
 export function calculerHeureInt(lune: number, terre: number, soleil: number): number {
     let resultat = 0;
@@ -55,7 +55,7 @@ export function calculerHeureString(valeur: number) : string {
         return "soirning"
     }
     else{
-        return "mortin"  
+        return "nuight"  
     }
     
 }
